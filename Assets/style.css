@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    list-style: none;
+    scrollbar-width: thin;
+    scrollbar-color: var(--secondary-bg-color) transparent;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#principal {
+    width: 1024px;
+    margin: 50px auto;
+}
+
+.header-top {
+    height: 50px;
+    background: #162028;
+    position: relative;
+}
+
+.logotipo {
+    margin: 10px 0 0 145px;
+}
+
+.header-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.header-nav li {
+    display: inline-block;
+    margin: 0 15px 0 0;
+    padding: 14px;
+}
+
+.header-nav a {
+    color: #425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 5px;
+    transition: color 0.3s linear;
+}
+
+.header-nav a:hover {
+    color: white;
+}
+
+.portfolio {
+    padding: 100px 100px;
+    text-align: center;
+}
+
+.portfolio h1 {
+    font-size: 36px;
+    color: #162028;
+}
+
+.portfolio p {
+    font-size: 16px;
+    line-height: 1.3;
+    padding: 24px;
+}
+
+.gallery {
+    padding: 0px 100px 0px 100px;
+    overflow: auto;
+}
+
+.gallery-card {
+    width: 32%;
+    float: left;
+    text-align: center;
+}
+
+.gallery-title {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.about {
+    background-color: #003d52;
+    padding: 100px;
+    margin: 100px 100px 100px 100px;
+    color: white;
+    background-image: url(Imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.about h2 {
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: normal;
+}
+
+.about p {
+    margin-top: 25px;
+    line-height: 1.3;
+    width: 80%;
+    text-align: justify;
+}
+
+#contact {
+    margin: 50px 0;
+}
+
+#contact address {
+    color: #143f52;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+}
+
+.maps {
+    margin: 0px 0px 100px 100px;
+}
+
+.maps-maps {
+    width: 90%;
+    height: 450px;
+}
+
+.rodape {
+    background: #143f52;
+    padding: 20px;
+    font-size: 12px;
+    color: white;
+    letter-spacing: 3px;
+    text-align: center;
+}
